@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Какие-то формы</title>
+</head>
+<body>
+<p>Тег form
+<form action="https://www.google.com/?hl=RU" method="get">
+<br> action - ссылка на скрипт, обрабатывающий файл, написанный обычно на python, method - отправка файла на сервер
+
+<p>Кнопка /Отправить/ - отправляет введённые данные на сервер
+<button type="submit" name="irsubmit"></button>
+<br> <input type="submit" name="submit" value="отправить">
+<br> элемент input
+<br> Атрибут name - название инструмента для обработчика данных
+
+<p>Кнопка /Очистить/
+<button type="reset"></button>
+<br> <input type="reset" name="reset" value="очистить">
+
+<br> Ввод небольшого текста
+<input type="text">
+
+<p> Поле для ввода текста
+<br> <textarea>Текст, отображающийся внутри поля, комментарии etc</textarea>
+<br> <textarea cols="10" rows="5" maxlength="250" name="отзыв">cols ширина поля, rows строки</textarea>
+<p> Пояснительный текст
+<br><input type="text" placeholder="введите имя">
+
+
+<p> Числовые значения
+<input type="number" name="amount" value="6" size="">
+
+<p> Пароль</p>
+<input type="password" name="password" value="" size="10" placeholder="введите пароль">
+
+<p> Поле для электронной почты
+    <input type="email">
+
+<p> Загрузка файла
+    <input type="file">
+
+<p> Выбор даты
+    <input type="date" value="2023-10-11">
+
+<p> Переключатели (+checked)
+<br>Зависимый (один вариант)
+    <br><input type="radio" checked> Бакалавриат
+    <br><input type="radio"> Магистратура
+    <br>Независимый (несколько вариантов)
+    <br><input type="checkbox" checked> по почте
+    <br><input type="checkbox"> звуки космоса
+
+<p> Выпадающий список</p>
+    <select name="">
+        <option>Свободно</option>
+        <option>Со словарём</option>
+        <option>Разговорный</option>
+    </select>
+
+<br> Проверка полей формы на заполнение (Валидация формы)
+    <br><input type="text" placeholder="Введите имя" required>
+    <button formnovalidate type="submit"></button>
+</form>
+</body>
+</html>
