@@ -1,0 +1,83 @@
+[
+    {
+      "id": "1",
+      "title": "Фамильный меч Лёд",
+      "vendor_code": "111",
+      "description": "Копия фамильного меча дома Старк, принадлежал Эддарду Старку",
+      "price": 100,
+      "img": "./Pictures/Lyod.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Длинный коготь",
+      "vendor_code": "222",
+      "description": "Меч Джона Сноу, унаследованный от прошлого главы Ночного Дозора",
+      "price": 200,
+      "img": "./Pictures/LongClaw.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Чёрная Заводь",
+      "vendor_code": "333",
+      "description": "Замок у Королевского тракта, стоящий на Белом Ноже, принадлежал дому Слейтов, но где они сейчас никто не знает",
+      "price": 300,
+      "img": "./Pictures/Zavod.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Дракон",
+      "vendor_code": "444e",
+      "description": "Дракон из Эссоса",
+      "price": 400,
+      "img": "./Pictures/Dragon.jpg"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Лошадь",
+      "vendor_code": "4445e",
+      "description": "Лошадь, которую нашли на дороге",
+      "price": 400,
+      "img": "./Pictures/kon.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Плащ брата Ночного дозора",
+      "vendor_code": "4446e",
+      "description": "Сняли с одного из братьев, замёрзшего за стеной",
+      "price": 400,
+      "img": "./Pictures/Plash.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Дневник Сансы Старк",
+      "vendor_code": "4447e",
+      "description": "Потерялся в Королевской Гавани",
+      "price": 700,
+      "img": "./Pictures/Dnevnik.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Щит Болтонов",
+      "vendor_code": "4448e",
+      "description": "Единственное оставшееся напоминание о величии истреблённого дома",
+      "price": 800,
+      "img": "./Pictures/Shit.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Фолиант из Староместа",
+      "vendor_code": "4449e",
+      "description": "Старая тяжёлая книга из библиотеки мейстеров, написанная на непонятном языке",
+      "price": 800,
+      "img": "./Pictures/Foliant.jpeg"
+    },
+    {
+      "id": "10",
+      "title": "Железный трон",
+      "vendor_code": "44411e",
+      "description": "Да-да, в этом мире можно купить даже его",
+      "price": 1100,
+      "img": "./Pictures/Tron.jpeg"
+    }
+  ]
